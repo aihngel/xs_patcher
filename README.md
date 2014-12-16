@@ -40,3 +40,5 @@ Added updated patches for Clearwater
 Added temporary file Removal to keep from filling up root directory
 
 Added reboot prompt and helpful information to user
+
+Merged! ~ Remove patch zips and xsupdates as soon as they're no longer needed So that we don't fill up dom0 and run out of disk space.  Thank you!
