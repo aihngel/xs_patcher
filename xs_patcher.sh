@@ -60,7 +60,7 @@ function apply_patches {
 			then
 				echo "Downloading from $PATCH_URL..."
 				cd tmp
-				wget -q $PATCH_URL
+				curl -O $PATCH_URL
 				unzip -qq $PATCH_NAME.zip				
 				mv $PATCH_NAME.xsupdate ../cache
 				cd ..
